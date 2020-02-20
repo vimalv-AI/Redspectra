@@ -1,2 +1,2 @@
-# Redspectra
+# Vimal
 Testing Program
