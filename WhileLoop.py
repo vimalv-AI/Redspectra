@@ -1,14 +1,14 @@
 # Testing and learning git/github program
 
 # Enter The Initialization Value
-# like in c program for(i=0;i<=10;i++) 
+# like in C,C++ program for(i=0;i<=10;i++) 
 # Here i=0 , is changed to user input
 # like blowe input code Start_Value 
 Start_Value = input("Initialization value : ")
 # assume Start_Value as i
 i = int(Start_Value)
 # Then , also user choice to defined End Value
-# like in c i<=10 instend instead of 10 we assume j 
+# like in C,C++ i<=10 instend instead of 10 we assume j 
 End_Value = input("Condition Value : ")
 # assume Start_Value as i
 j = int(End_Value)
