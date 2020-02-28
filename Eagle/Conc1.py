@@ -27,7 +27,7 @@ for filename in filelist:
     dfList.append(df)
 concatDF=pd.concat(dfList,axis=0)
 concatDF.to_csv('t/Concatenate.csv',index=None)
-print("\t CONCATE SUCCUSED")
+print("\t CONCATE COMPLETED")
 
 filelist1 = glob.glob("0/*.csv")
 df1List = []
@@ -37,5 +37,5 @@ for filename1 in filelist1:
     df1List.append(df1)
 concatDF1=pd.concat(df1List,axis=0)
 concatDF1.to_csv('f/Concatenate.csv',index=None)
-print("\t CONCATE SUCCUSED")
+print("\t CONCATE COMPLETED")
 
