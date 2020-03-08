@@ -5,6 +5,7 @@ import os,sys
 import shutil
 import numpy as np
 import pandas as pd
+from pandas import concat
 from natsort import natsorted,ns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -15,7 +16,7 @@ print("""\n\tWelcome to Eagle_3 Sensor Board console
          4 = plotting receive.txt files\n""")
 cmd=int(input("Choose your opition :"))
 if cmd == 1:
-      tight = natsorted(glob.glob("tight/*.txt"))
+      tight = natsorted(glob.glob("data_collectors/1_tight/*.txt"))
       df_tList = []
       print(tight)
       for tic_t in tight:
@@ -26,8 +27,8 @@ if cmd == 1:
       concatDF_T = concatDF.T 
       print(concatDF_T)
       concatDF_T.insert(0,"","1")
-      concatDF_T.to_csv('data_base/          tight_data_set.csv',index=None,header=None)
-      lose = natsorted(glob.glob("lose/*.txt"))
+      concatDF_T.to_csv('data_set/tight_data_set.csv',index=None,header=None)      
+      lose = natsorted(glob.glob("data_collectors/0_lose/*.txt"))
       df_lList = []
       print(lose)
       for tic_l in lose:
@@ -38,8 +39,8 @@ if cmd == 1:
       concatDF1_T = concatDF1.T
       print(concatDF1_T) 
       concatDF1_T.insert(0,"","0")
-      concatDF1_T.to_csv('data_base/lose_data_set.csv',index=None,header=None)
-      final_concat = natsorted(glob.glob("data_base/*.csv"))
+      concatDF1_T.to_csv('data_set/lose_data_set.csv',index=None,header=None)
+      final_concat = natsorted(glob.glob("data_set/*.csv"))
       print(final_concat)
       df_fcList = []
       for fc in final_concat:
@@ -47,11 +48,18 @@ if cmd == 1:
           print(df_fc)
           df_fcList.append(df_fc)
       Finalconcat=pd.concat(df_fcList,axis=0)
-      Finalconcat.to_csv('data_base/eagle_data_set/eagle_data_set.csv',index=0, header=None)
+      Finalconcat.to_csv('data_set/eagle_data_set/eagle_data_set.csv',index=0, header=None)
       print(Finalconcat)
-
+      print("\n     Do you want Cleanup space ? y/n ")
+      cl=int(input("\nPlease Enter The Value (y(1)/n(0)) :"))
+      if cl == 1:
+         for hgx in glob.glob("data_set/*.csv"):
+             print(hgx)
+             os.remove(hgx)
+      else:
+             print("Go ahead")
 elif cmd == 2:
-     dataset = pd.read_csv('data_base/eagle_data_set/eagle_data_set.csv', header = None) # header = 0 to include the first row
+     dataset = pd.read_csv('data_set/eagle_data_set/eagle_data_set.csv', header = None) # header = 0 to include the first row
      print(dataset)
      X = dataset.iloc[:,1:].values
      print(X)
@@ -63,10 +71,17 @@ elif cmd == 2:
      file = classifier
      filename = 'trained_model/eagle_model.yml'
      pickle.dump(file, open(filename,'wb'))
-
+     print("\n     Do you want Cleanup space ? y/n ")
+     cl=int(input("\nPlease Enter The Value (y(1)/n(0)) :"))
+     if cl == 1:
+        for hgx in glob.glob("data_set/eagle_data_set/*.csv"):
+            print(hgx)
+            os.remove(hgx)
+     else:
+         print("Go ahead")
 elif cmd == 3:
      loaded_model = pickle.load(open('trained_model/eagle_model.yml', 'rb'))
-     file = natsorted(glob.glob("input_data/*.txt"))
+     file = natsorted(glob.glob("sample_test/*.txt"))
      for new in file:
          new=pd.read_csv(new,"r",header=None)  
          Trans=new.T
