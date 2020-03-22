@@ -3,5 +3,5 @@ import plotly.express as px
 
 df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dash_board/ph.csv')
 
-fig = px.line(df, x='Date_x', y=',Ph', title='PH Values')
+fig = px.line(df, x='Date_x', y=',PH', title='PH Values')
 fig.show()
