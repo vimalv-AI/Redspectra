@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c76994f-7fbe-42ca-9aee-812d2ba66299" name="Default Changelist" comment="" />
+    <list default="true" id="1c76994f-7fbe-42ca-9aee-812d2ba66299" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/116942.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/date.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hum.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humidity.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ph.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsz_screenshot_from_2020-03-22_03-50-45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temperature.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gauge.py" beforeDir="false" afterPath="$PROJECT_DIR$/gauge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_apps.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,39 +35,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YyJYHMneiA4K9zCcNvionirWOi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.wii">
-    <configuration name="0_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dash_board" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0_apps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.7_test_apps">
     <configuration name="1_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1wii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +93,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1wii.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_test_apps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dash_board" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_test_apps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dash_board" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_test_apps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dash_board" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_test_apps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,54 +186,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dash_board" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="wii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dash_board" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wii.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.wii" />
-        <item itemvalue="Python.0_apps" />
-        <item itemvalue="Python.image" />
-        <item itemvalue="Python.1wii" />
+        <item itemvalue="Python.7_test_apps" />
+        <item itemvalue="Python.6_test_apps" />
+        <item itemvalue="Python.5_test_apps" />
+        <item itemvalue="Python.4_test_apps" />
         <item itemvalue="Python.1_apps" />
       </list>
     </recent_temporary>
@@ -175,7 +209,14 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="27" width="642" height="741" key="#2_test_apps" timestamp="1584799813206">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="392" y="27" width="642" height="741" key="#2_test_apps/70.27.1296.741@70.27.1296.741" timestamp="1584799813206" />
     <state x="313" y="59" width="800" height="684" key="#Inspections" timestamp="1584719203566">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
@@ -192,50 +233,50 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="825" y="155" width="501" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1584711939714" />
-    <state width="1273" height="170" key="GridCell.Tab.0.bottom" timestamp="1584785469937">
+    <state width="1273" height="133" key="GridCell.Tab.0.bottom" timestamp="1584907989077">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="170" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584785469937" />
-    <state width="1273" height="170" key="GridCell.Tab.0.center" timestamp="1584785469936">
+    <state width="1273" height="133" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584907989077" />
+    <state width="1273" height="133" key="GridCell.Tab.0.center" timestamp="1584907989076">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="170" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1584785469936" />
-    <state width="1273" height="170" key="GridCell.Tab.0.left" timestamp="1584785469935">
+    <state width="1273" height="133" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1584907989076" />
+    <state width="1273" height="133" key="GridCell.Tab.0.left" timestamp="1584907989076">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="170" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1584785469935" />
-    <state width="1273" height="170" key="GridCell.Tab.0.right" timestamp="1584785469936">
+    <state width="1273" height="133" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1584907989076" />
+    <state width="1273" height="133" key="GridCell.Tab.0.right" timestamp="1584907989076">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="170" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1584785469936" />
-    <state width="1273" height="215" key="GridCell.Tab.1.bottom" timestamp="1584719287265">
+    <state width="1273" height="133" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1584907989076" />
+    <state width="1273" height="215" key="GridCell.Tab.1.bottom" timestamp="1584832777867">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584719287265" />
-    <state width="1273" height="215" key="GridCell.Tab.1.center" timestamp="1584719287264">
+    <state width="1273" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584832777867" />
+    <state width="1273" height="215" key="GridCell.Tab.1.center" timestamp="1584832777865">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1584719287264" />
-    <state width="1273" height="215" key="GridCell.Tab.1.left" timestamp="1584719287264">
+    <state width="1273" height="215" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1584832777865" />
+    <state width="1273" height="215" key="GridCell.Tab.1.left" timestamp="1584832777865">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1584719287264" />
-    <state width="1273" height="215" key="GridCell.Tab.1.right" timestamp="1584719287265">
+    <state width="1273" height="215" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1584832777865" />
+    <state width="1273" height="215" key="GridCell.Tab.1.right" timestamp="1584832777866">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1584719287265" />
+    <state width="1273" height="215" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1584832777866" />
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1584775549724">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1584775549724" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584775478882">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584906201856">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1584775478882" />
-    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584783694454">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1584906201856" />
+    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584800579530">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1584783694454" />
+    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1584800579530" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
