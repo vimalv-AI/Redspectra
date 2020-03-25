@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c76994f-7fbe-42ca-9aee-812d2ba66299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10_text_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_text_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_t_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_t_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_t_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_temperature.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_humidity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_test_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_test_apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trancsv.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtt.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_test_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_test_apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_test_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_test_apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humidity.csv" beforeDir="false" afterPath="$PROJECT_DIR$/humidity.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ph.txt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ph.txt.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temperature.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temperature.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ph.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
