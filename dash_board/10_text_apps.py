@@ -1,10 +1,22 @@
 # coding=utf-8
 import base64
-
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
 import dash_daq as daq
+import pandas as pd
+
+dt = pd.read_csv('mtt.csv')
+dk = dt.tail()
+dk1 = dk.T
+test_list = [dk1]
+
+for i in range(0, len(test_list)):
+
+    if i == (len(test_list) - 1):
+        print (i)
+# coding=utf-8
+
 
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/amyoshino/pen/jzXypZ.css'])
 
@@ -36,7 +48,7 @@ app.layout = html.Div([  # b
         html.Div([  # c
             html.Div([  # d
                 dcc.Graph(id='example3',
-                          style={'width': 1040, 'height': 365.5, 'overflowX': 'scroll',
+                          style={'width': 940, 'height': 365.5, 'overflowX': 'scroll',
                                  # 'margin': {'l': 10, 'b': 0,'t': 10, 'r': 0}
                                  },
                           figure={'data': [
@@ -59,19 +71,19 @@ app.layout = html.Div([  # b
             html.Div([  # F
                 daq.Gauge(
                     id='my-gauge',
-                    style={'width': 1250, 'height': 840, 'margin': {'l': 20, 'b': 0, 't': 0, 'r': 0}},
+                    style={'width': 1500, 'height': 840, 'margin': {'l': 20, 'b': 0, 't': 0, 'r': 0}},
                     color={"gradient": True,
                            "ranges": {"green": [0, 25], "yellow": [25, 35], "red": [35, 50]}},
                     showCurrentValue=True,
                     units="Degree °C ",
-                    value=31,
+                    value=int(i),
                     label='Temperature Meter',
                     max=50,
                     min=0,
                 ),
-            ],  # className='six columns'
+            ], className='six columns'
             )  # F
-        ],  # className="row"
+        ], className="row"
         ),
         html.Div([
             dcc.Graph(id='example8',
@@ -93,7 +105,7 @@ app.layout = html.Div([  # b
                                      }
                       }
                       )
-                      ], className='six columns'),  # h
+        ], className='six columns'),  # h
         html.Div([
             daq.Gauge(
                 id='my-gauge1',
@@ -113,7 +125,7 @@ app.layout = html.Div([  # b
     ]
     )
 
-    ]
+]
     , className="row"
 )  # b
 

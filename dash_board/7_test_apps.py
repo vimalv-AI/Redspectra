@@ -1,7 +1,21 @@
 import pandas as pd
-import plotly.express as px
 
-df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dash_board/ph.csv')
+file = pd.read_csv('mtt.csv')
 
-fig = px.line(df, x='Date_x', y=',PH', title='PH Values')
-fig.show()
+df=pd.DataFrame(file.iloc[:,:].values)
+
+print (df.head()) #it will give you first five rows from your csv file
+
+print(df.tail()) #it will give you last five rows from your csv file
+
+
+df=pd.DataFrame(file.iloc[-1:,:].values)
+
+import csv
+
+with open('mtt.csv', 'r') as f:
+    for row in reversed(list(csv.reader(f))):
+        print(', '.join(row))
+
+        y = row.iloc[:, 0].values
+

@@ -1,10 +1,13 @@
 # coding=utf-8
 import base64
-
 import dash
-import dash_html_components as html
 import dash_core_components as dcc
 import dash_daq as daq
+import dash_html_components as html
+
+with open('mtt.csv', 'r') as f:
+    for row in f:
+        pass
 
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/amyoshino/pen/jzXypZ.css'])
 
@@ -36,7 +39,7 @@ app.layout = html.Div([  # b
         html.Div([  # c
             html.Div([  # d
                 dcc.Graph(id='example3',
-                          style={'width': 1040, 'height': 365.5, 'overflowX': 'scroll',
+                          style={'width': 940, 'height': 365.5, 'overflowX': 'scroll',
                                  # 'margin': {'l': 10, 'b': 0,'t': 10, 'r': 0}
                                  },
                           figure={'data': [
@@ -59,12 +62,12 @@ app.layout = html.Div([  # b
             html.Div([  # F
                 daq.Gauge(
                     id='my-gauge',
-                    style={'width': 1250, 'height': 840, 'margin': {'l': 20, 'b': 0, 't': 0, 'r': 0}},
+                    style={'width': 1500, 'height': 840, 'margin': {'l': 20, 'b': 0, 't': 0, 'r': 0}},
                     color={"gradient": True,
                            "ranges": {"green": [0, 25], "yellow": [25, 35], "red": [35, 50]}},
                     showCurrentValue=True,
                     units="Degree °C ",
-                    value=31,
+                    value=int(row),
                     label='Temperature Meter',
                     max=50,
                     min=0,
@@ -93,7 +96,7 @@ app.layout = html.Div([  # b
                                      }
                       }
                       )
-                      ], className='six columns'),  # h
+        ], className='six columns'),  # h
         html.Div([
             daq.Gauge(
                 id='my-gauge1',
@@ -113,7 +116,7 @@ app.layout = html.Div([  # b
     ]
     )
 
-    ]
+]
     , className="row"
 )  # b
 

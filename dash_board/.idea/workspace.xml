@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c76994f-7fbe-42ca-9aee-812d2ba66299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ph.txt.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_text_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_text_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_t_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_t_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_t_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_temperature.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_humidity.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_test_apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trancsv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mtt.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mtt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_test_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_test_apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7_test_apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_test_apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ph.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humidity.csv" beforeDir="false" afterPath="$PROJECT_DIR$/humidity.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ph.txt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ph.txt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temperature.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temperature.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +58,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.7_test_apps">
-    <configuration name="1_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.14_t_apps">
+    <configuration name="10_text_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_apps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_text_apps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12_t_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_test_apps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_t_apps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13_t_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_test_apps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_t_apps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14_t_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_test_apps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_t_apps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8_test_apps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dash_board" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_test_apps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_test_apps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.7_test_apps" />
-        <item itemvalue="Python.6_test_apps" />
-        <item itemvalue="Python.5_test_apps" />
-        <item itemvalue="Python.4_test_apps" />
-        <item itemvalue="Python.1_apps" />
+        <item itemvalue="Python.14_t_apps" />
+        <item itemvalue="Python.10_text_apps" />
+        <item itemvalue="Python.8_test_apps" />
+        <item itemvalue="Python.13_t_apps" />
+        <item itemvalue="Python.12_t_apps" />
       </list>
     </recent_temporary>
   </component>
@@ -218,53 +232,64 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="825" y="155" width="501" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1584711939714" />
-    <state width="1273" height="83" key="GridCell.Tab.0.bottom" timestamp="1584910375646">
+    <state width="1250" height="111" key="GridCell.Tab.0.bottom" timestamp="1585139880709">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="83" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584910375646" />
-    <state width="1273" height="83" key="GridCell.Tab.0.center" timestamp="1584910375645">
+    <state width="1250" height="111" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585139880709" />
+    <state width="1250" height="111" key="GridCell.Tab.0.center" timestamp="1585139880708">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="83" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1584910375645" />
-    <state width="1273" height="83" key="GridCell.Tab.0.left" timestamp="1584910375645">
+    <state width="1250" height="111" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1585139880708" />
+    <state width="1250" height="111" key="GridCell.Tab.0.left" timestamp="1585139880708">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="83" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1584910375645" />
-    <state width="1273" height="83" key="GridCell.Tab.0.right" timestamp="1584910375646">
+    <state width="1250" height="111" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1585139880708" />
+    <state width="1250" height="111" key="GridCell.Tab.0.right" timestamp="1585139880709">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="83" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1584910375646" />
-    <state width="1273" height="215" key="GridCell.Tab.1.bottom" timestamp="1584832777867">
+    <state width="1250" height="111" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1585139880709" />
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom" timestamp="1585040564220">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1584832777867" />
-    <state width="1273" height="215" key="GridCell.Tab.1.center" timestamp="1584832777865">
+    <state width="1250" height="215" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1585040564220" />
+    <state width="1250" height="215" key="GridCell.Tab.1.center" timestamp="1585040564217">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1584832777865" />
-    <state width="1273" height="215" key="GridCell.Tab.1.left" timestamp="1584832777865">
+    <state width="1250" height="215" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1585040564217" />
+    <state width="1250" height="215" key="GridCell.Tab.1.left" timestamp="1585040564216">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1584832777865" />
-    <state width="1273" height="215" key="GridCell.Tab.1.right" timestamp="1584832777866">
+    <state width="1250" height="215" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1585040564216" />
+    <state width="1250" height="215" key="GridCell.Tab.1.right" timestamp="1585040564218">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="215" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1584832777866" />
-    <state x="207" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1584775549724">
+    <state width="1250" height="215" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1585040564218" />
+    <state x="207" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1585029037383">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1584775549724" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584910521728">
+    <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1585029037383" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585130063472">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1584910521728" />
-    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584800579530">
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1585130063472" />
+    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585029353768">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1584800579530" />
+    <state x="371" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1585029353768" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585074606945">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1585074606945" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10_text_apps.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnlyOnFirst="true" notifyOnTerminate="true" ignoreLibraries="true" exception="BaseException">
