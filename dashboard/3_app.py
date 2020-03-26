@@ -75,7 +75,7 @@ app.layout = html.Div([
     ),
     dcc.Graph(id='example7', style={'width': 1245, 'height': 365.5, 'overflowX': 'scroll'},
               figure=px.area(df7, y='Relative Humidity', x='Temperature',
-                             title='COMPARING TEMPERATURE °C AND HUMIDITY % ', ) 
+                             title='COMPARING TEMPERATURE °C AND HUMIDITY % ', )
 
               )
 ], className='six columns'
