@@ -16,7 +16,7 @@ app.title = 'Redspectra'
 with open('temp.csv', 'r') as f:
     for row in f:
         pass
-df = pd.read_csv('temperature.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/apps/1_temperature.csv')
 app.layout = html.Div([  # a
     html.Div([
         html.Img(src='data:image/png;base64,{}'.format(encoded_image), height=34, width=200),
@@ -37,7 +37,7 @@ app.layout = html.Div([  # a
             showCurrentValue=True,
             units="Degree °C ",
 
-            value=float(row),
+            value=60,
 
             label='Temperature Meter',
             max=50,

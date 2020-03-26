@@ -61,7 +61,7 @@ app.layout = html.Div([
             color={"gradient": True,
                    "ranges": {"green": [0, 50], "yellow": [50, 70], "red": [70, 100]}},
             showCurrentValue=True,
-            units="Humidity%",
+            units="Degree °C ",
             value=float(row1),
             label='Humidity Meter',
             max=100,

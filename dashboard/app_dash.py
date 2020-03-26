@@ -9,18 +9,21 @@ import plotly.express as px
 
 app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/amyoshino/pen/jzXypZ.css'])
 
-image_filename = 'rsz_screenshot_from_2020-03-22_03-50-45.png'  # replace with your own image
+image_filename = 'Screenshot from 2020-03-25 23-54-55.png'  # replace with your own image
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 app.title = 'Redspectra'
 
+df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/apps/1_temperature.csv')
+df.to_csv('1_temperature.csv', index=None)
 with open('1_temperature.csv', 'r') as f:
     for row in f:
-        pass
-with open('2_humidity.csv', 'r') as f:
-    for row1 in f:
-        pass
-df = pd.read_csv('1_temperature.csv')
-df1 = pd.read_csv('2_humidity.csv')
+        print(row)
+
+df1 = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/apps/2_humidity.csv')
+df1.to_csv('2_humidity.csv', index=None)
+with open('2_humidity.csv', 'r') as f1:
+    for row1 in f1:
+        print (row1)
 app.layout = html.Div([
     html.Div([
         html.Img(src='data:image/png;base64,{}'.format(encoded_image), height=40, width=255),
@@ -61,7 +64,7 @@ app.layout = html.Div([
             color={"gradient": True,
                    "ranges": {"green": [0, 50], "yellow": [50, 70], "red": [70, 100]}},
             showCurrentValue=True,
-            units="Humidity%",
+            units=" Humidity % ",
             value=float(row1),
             label='Humidity Meter',
             max=100,
