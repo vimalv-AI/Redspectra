@@ -24,6 +24,7 @@ df1.to_csv('2_humidity.csv', index=None)
 with open('2_humidity.csv', 'r') as f1:
     for row1 in f1:
         print (row1)
+df7 = pd.read_csv('datas.csv')
 app.layout = html.Div([
     html.Div([
         html.Img(src='data:image/png;base64,{}'.format(encoded_image), height=40, width=255),
@@ -60,7 +61,7 @@ app.layout = html.Div([
     html.Div([
         daq.Gauge(
             id='my-gauge1',
-            style={'width': 1550, 'height': 550},
+            style={'width': 1550, 'height': 50},
             color={"gradient": True,
                    "ranges": {"green": [0, 50], "yellow": [50, 70], "red": [70, 100]}},
             showCurrentValue=True,
@@ -71,9 +72,15 @@ app.layout = html.Div([
             min=0,
         )
     ]
-    )
-]
+    ),
+    dcc.Graph(id='example7', style={'width': 1245, 'height': 365.5, 'overflowX': 'scroll'},
+              figure=px.area(df7, y='Relative Humidity', x='Temperature',
+                             title='COMPARING TEMPERATURE °C AND HUMIDITY % ', ) 
+
+              )
+], className='six columns'
 )
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)

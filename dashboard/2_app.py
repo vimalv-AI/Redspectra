@@ -60,7 +60,7 @@ app.layout = html.Div([
     html.Div([
         daq.Gauge(
             id='my-gauge1',
-            style={'width': 1550, 'height': 550},
+            style={'width': 1550, 'height': 50},
             color={"gradient": True,
                    "ranges": {"green": [0, 50], "yellow": [50, 70], "red": [70, 100]}},
             showCurrentValue=True,
@@ -71,9 +71,14 @@ app.layout = html.Div([
             min=0,
         )
     ]
-    )
-]
+    ),
+    dcc.Graph(id='example7', style={'width': 1245, 'height': 365.5, 'overflowX': 'scroll'},
+              figure=px.scatter_3d(df7, y='Temperature', z='humdity', title='Temperature °C ', )
+
+              )
+], className='six columns'
 )
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
