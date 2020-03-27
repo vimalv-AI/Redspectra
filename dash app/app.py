@@ -12,6 +12,7 @@ app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/amyoshino/pe
 image_filename = 'logo.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 app.title = 'Redspectra'
+
 df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dashboard/data/Temperature.csv')
 
 # If you know the name of the column skip this
@@ -37,7 +38,8 @@ app.layout = html.Div([
     html.Div([
         html.Img(src='data:image/png;base64,{}'.format(encoded_image), height=45, width=330),
         dcc.Graph(id='example1', style={'width': 1101, 'height': 380, 'overflowX': 'scroll'},
-                  figure=px.area(df, x='Time', y='Temperature', title='Live Streaming Temperature Degree °C ', )
+                  figure=px.area(df, x='Time', y='Temperature', title='Live Streaming Temperature Degree °C ',
+                                
 
                   )
     ], className='six columns'
@@ -80,38 +82,6 @@ app.layout = html.Div([
         )
     ]
     ),
-
-    html.Div([html.Div([
-        dcc.Graph(id='example7', style={'width': 820, 'height': 365.5, 'overflowX': 'scroll'},
-                  figure=px.area(df7, x='Temperature', y='Relative Humidity',
-                                 title='COMPARING TEMPERATURE °C AND HUMIDITY % ', )
-
-                  ),
-
-    ], className='six columns'
-    ),
-        html.Div([
-
-            daq.LEDDisplay(style={'width': 1330, 'height': 0},
-                           label="TEMPERATURE",
-                           value=float(row),
-                           size=64,
-                           ),
-
-        ], className='six columns'
-        ),
-        html.Div([
-            daq.LEDDisplay(style={'width': 2180, 'height': 0},
-                           label="HUMIDITY",
-                           value=float(row1, ),
-                           size=64,
-
-                           ),
-        ]
-        )
-
-    ], className='six columns'
-    )
 ]
 )
 

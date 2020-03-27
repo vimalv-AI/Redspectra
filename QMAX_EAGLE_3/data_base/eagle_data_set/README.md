@@ -1,2 +1,0 @@
-# Vimal
-Testing Program
