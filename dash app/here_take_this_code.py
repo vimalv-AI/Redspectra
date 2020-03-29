@@ -13,7 +13,7 @@ image_filename = 'logo.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 app.title = 'Redspectra'
 
-df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dashboard/data/Temperature.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dash%20app/tmp.csv')
 
 # If you know the name of the column skip this
 first_column = df.columns[0]
@@ -24,7 +24,7 @@ with open('1_temperature.csv', 'r') as f:
     for row in f:
         pass
 
-df1 = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dashboard/data/Humidity.csv')
+df1 = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dash%20app/hum.csv')
 # If you know the name of the column skip this
 first_column = df1.columns[0]
 # Delete first
@@ -33,7 +33,7 @@ df2.to_csv('2_humidity.csv', index=False)
 with open('2_humidity.csv', 'r') as f1:
     for row1 in f1:
         pass
-df7 = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dashboard/data/tmp_hum.csv')
+df7 = pd.read_csv('https://raw.githubusercontent.com/vimalv-AI/Vimal/master/dash app/temperature.csv')
 app.layout = html.Div([
     html.Div([
         html.Img(src='data:image/png;base64,{}'.format(encoded_image), height=45, width=330),
